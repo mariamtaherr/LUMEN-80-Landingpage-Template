@@ -631,47 +631,6 @@ transition: 0.3s;
 }
 
 
-/* Responsive */
-
-@media (max-width: 900px) {
-
-    .materials-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .materials-section {
-        padding: 90px 0;
-    }
-
-    .materials-heading {
-        margin-bottom: 50px;
-    }
-
-    .materials-heading h2 {
-        font-size: 55px;
-    }
-
-    .materials-grid {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    .material-item {
-        padding: 25px 0;
-    }
-
-    .material-number {
-        margin-bottom: 20px;
-    }
-
-}
-
-
 /* Atelier */
 
 .atelier-section {
